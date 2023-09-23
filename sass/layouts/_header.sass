@@ -1,0 +1,69 @@
+@use '../utilities/variables' as var
+
+.header
+  width: 100%
+  padding: 10px
+  background-color: var.$primary-color
+  .header-wrapper
+    widht: 100%
+    max-width: 1100px
+    margin: 10px auto
+    display: flex
+    justify-content: space-between
+    button
+      background-color: transparent
+      border: none
+      width: 50px
+      height: 50px
+      display: none
+      cursor: pointer
+      i
+        color: var.$secondary-color
+        opacity: var.$opacity
+        transition: all 0.3s
+        &:hover
+          opacity: 1
+          transform: scale(1.1)
+      @media screen and (max-width: var.$breakpoint-md)
+        display: block
+    #close-btn
+      display: none
+    .header__nav--desktop
+      ul
+        display: flex
+        li
+          margin: 10px
+          a 
+            color: var.$secondary-color
+            opacity: var.$opacity
+            text-transform: capitalize
+            border-bottom: 1px solid transparent
+            &:hover
+              opacity: 1
+              border-bottom: 1px solid var.$secondary-color
+      @media screen and (max-width: var.$breakpoint-md)
+        display: none
+    .header__nav--mobile
+      width: 90%
+      display: none
+      text-align: center
+      position: absolute
+      background-color: rgba(0,0,0,0.8)
+      margin: 100px auto 0 auto
+      left: 20px
+      z-index: 10
+      ul
+        width: 100%
+        display: flex
+        flex-direction: column
+        margin: 1.75rem 0
+        li
+          padding: 0.625rem
+          a 
+            color: var.$secondary-color
+            opacity: var.$opacity
+            text-transform: capitalize
+            border-bottom: 1px solid transparent
+            &:hover
+              opacity: 1
+              border-bottom: 1px solid var.$secondary-color

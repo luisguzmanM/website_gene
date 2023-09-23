@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Begin SEO tags -->
+    <title>Título de la página</title>
+    <meta
+      name="description"
+      content="Descripción corta y atractiva del contenido"
+    />
+    <!-- End SEO tags -->
+
+    <!-- Begin OPEN GRAPH tags -->
+    <meta property="og:title" content="Título de la página" />
+    <meta
+      property="og:description"
+      content="Descripción corta y atractiva del contenido"
+    />
+    <meta property="og:image" content="URL_de_la_imagen" />
+    <meta property="og:url" content="URL_canónica_de_la_página" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Nombre del sitio web" />
+    <meta property="og:locale" content="es_ES" />
+    <!-- End OPEN GRAPH tags -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+        <figure>
+          <img src="" alt="" />
+        </figure>
+
+        <nav class="header__nav--desktop">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Programas</a></li>
+          </ul>
+        </nav>
+
+        <nav id="menu-nav" class="header__nav--mobile">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Programas</a></li>
+          </ul>
+        </nav>
+
+        <button>
+          <i class="fa-solid fa-bars fa-2xl" id="burger-btn"></i>
+          <i class="fas fa-times fa-2xl" id="close-btn"></i>
+        </button>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="video">
+        <video src="./assets//videos//highlights_cinema.mp4">
+
+        </video>
+      </section>
+
+      <section class="slider">
+        <div class="swiper" css-mode="true">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="./assets/images/gene_pic_2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/gene_pic_3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/gene_pic_4.jpg" alt="">
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+
+      <section class="title">
+        <h1 class="h1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+      </section>
+
+      <section class="features">
+        <div class="card-feature">
+          <div class="card__wrapper__img">
+            <img src="./assets/images/brain.webp" alt="">
+          </div>
+          <div class="card__wrapper__title">
+            <h3>Texto de subtitulo</h3>
+          </div>
+          <div class="card__wrapper__description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis temporibus reprehenderit illum necessitatibus culpa quasi animi saepe, fugiat vero laborum nulla nostrum esse repudiandae odio sint corrupti voluptatem veritatis exercitationem!</p>
+          </div>
+        </div>
+
+        <div class="card-feature">
+          <div class="card__wrapper__img">
+            <img src="./assets/images/body.webp" alt="">
+          </div>
+          <div class="card__wrapper__title">
+            <h3>Texto de subtitulo</h3>
+          </div>
+          <div class="card__wrapper__description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis temporibus reprehenderit illum necessitatibus culpa quasi animi saepe, fugiat vero laborum nulla nostrum esse repudiandae odio sint corrupti voluptatem veritatis exercitationem!</p>
+          </div>
+        </div>
+
+        <div class="card-feature">
+          <div class="card__wrapper__img">
+            <img src="./assets/images/mobility.webp" alt="">
+          </div>
+          <div class="card__wrapper__title">
+            <h3>Texto de subtitulo</h3>
+          </div>
+          <div class="card__wrapper__description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis temporibus reprehenderit illum necessitatibus culpa quasi animi saepe, fugiat vero laborum nulla nostrum esse repudiandae odio sint corrupti voluptatem veritatis exercitationem!</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="flex-row-center mv25">
+        <button class="button">Button</button>
+      </section>
+
+      <section class="program">
+        <h2>Programas</h2>
+        <div class="program__wrapper">
+
+          <div class="program__card">
+            <div class="program__ilustration">
+              <div class="program__wrapper__img">
+                <img src="../../assets/images/gene_pic_1.jpg" alt="">
+              </div>
+              <h3>Básico</h3>
+              <p>Mensual</p>
+            </div>
+            <div class="program__price">
+              <span>Programa fisico mensual</span>
+              <span><strong>$0.99 USD</strong></span>
+            </div>
+          </div>
+
+          <div class="program__card">
+            <div class="program__ilustration">
+              <div class="program__wrapper__img">
+                <img src="../../assets/images/gene_pic_1.jpg" alt="">
+              </div>
+              <h3>Intermedio</h3>
+              <p>Mensual</p>
+            </div>
+            <div class="program__price">
+              <span>Programa fisico trimestral</span>
+              <span><strong>$5.99 USD</strong></span>
+            </div>
+          </div>
+
+          <div class="program__card">
+            <div class="program__ilustration">
+              <div class="program__wrapper__img">
+                <img src="../../assets/images/gene_pic_1.jpg" alt="">
+              </div>
+              <h3>Avanzado</h3>
+              <p>Mensual</p>
+            </div>
+            <div class="program__price">
+              <span>Programa fisico anual</span>
+              <span><strong>$9.99 USD</strong></span>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer pv20">
+      <p>&#169 Gene Climich Copyright | <span id="year"></span></p>
+    </footer>
+
+    <script src="./js/slider.js" type="module"></script> 
+    <script src="./js/index.js" type="module"></script>
+    <script src="./js/navButton.js" type="module"></script>
+    <script src="./js/year.js" type="module"></script>
+  </body>
+</html>
