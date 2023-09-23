@@ -541,6 +541,8 @@ main .program .program__wrapper .program__card .program__ilustration .program__w
 main .program .program__wrapper .program__card .program__ilustration .program__wrapper__img img {
   width: 100%;
   object-fit: cover;
+  position: relative;
+  top: -100px;
 }
 main .program .program__wrapper .program__card .program__ilustration .program__wrapper__img:hover {
   filter: grayscale(0);
