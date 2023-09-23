@@ -471,6 +471,9 @@ template {
   background-color: black;
 }
 
+main .video {
+  height: calc(100vh - 80px);
+}
 main .title {
   max-width: 1100px;
   margin: 50px auto;
