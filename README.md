@@ -1,4 +1,4 @@
-Comando para ejecutar el compilador de sass: sass --watch sass/styles.scss:css/styles.css
+Comando para ejecutar el compilador de sass: sass --watch sass/index.scss:css/index.css
 
 Explicación del comando:
 
