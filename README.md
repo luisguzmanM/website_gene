@@ -1,4 +1,6 @@
-Comando para ejecutar el compilador de sass: sass --watch sass/styles.scss:css/styles.css
+<a href="https://luisguzmanm.github.io/website_gene/">DEMO</a>
+
+Comando para ejecutar el compilador de sass: sass --watch sass/index.scss:css/index.css
 
 Explicación del comando:
 
