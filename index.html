@@ -48,7 +48,7 @@
         <nav class="header__nav--desktop">
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Sobre mi</a></li>
             <li><a href="#">Programas</a></li>
           </ul>
         </nav>
@@ -56,7 +56,7 @@
         <nav id="menu-nav" class="header__nav--mobile">
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Sobre mi</a></li>
             <li><a href="#">Programas</a></li>
           </ul>
         </nav>
@@ -70,34 +70,8 @@
 
     <main>
 
-      <section class="video">
-        <video src="./assets//videos//highlights_cinema.mp4">
-
-        </video>
-      </section>
-
-      <section class="slider">
-        <div class="swiper" css-mode="true">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-              <img src="./assets/images/gene_pic_2.jpg" alt="">
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/images/gene_pic_3.jpg" alt="">
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/images/gene_pic_4.jpg" alt="">
-            </div>
-          </div>
-          <!-- If we need pagination -->
-          <div class="swiper-pagination"></div>
-        
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-        </div>
+      <section class="video" style="height: calc(100vh - 80px);">
+        <video src="./assets//videos//highlights_cinema.mp4" autoplay loop style="height: 100%; width: 100%; object-fit: cover;"></video>
       </section>
 
       <section class="title">
@@ -142,8 +116,35 @@
         </div>
       </section>
 
+      <section class="slider">
+        <div class="swiper" css-mode="true">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="./assets/images/gene_pic_1.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/gene_pic_2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/gene_pic_3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/gene_pic_4.jpg" alt="">
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+
       <section class="flex-row-center mv25">
-        <button class="button">Button</button>
+        <button class="button">Más información</button>
       </section>
 
       <section class="program">
@@ -153,7 +154,7 @@
           <div class="program__card">
             <div class="program__ilustration">
               <div class="program__wrapper__img">
-                <img src="../../assets/images/gene_pic_1.jpg" alt="">
+                <img src="../../assets/images/planes_2.jpg" alt="">
               </div>
               <h3>Básico</h3>
               <p>Mensual</p>
@@ -167,7 +168,7 @@
           <div class="program__card">
             <div class="program__ilustration">
               <div class="program__wrapper__img">
-                <img src="../../assets/images/gene_pic_1.jpg" alt="">
+                <img src="../../assets/images/planes_1.jpg" alt="">
               </div>
               <h3>Intermedio</h3>
               <p>Mensual</p>
@@ -181,7 +182,7 @@
           <div class="program__card">
             <div class="program__ilustration">
               <div class="program__wrapper__img">
-                <img src="../../assets/images/gene_pic_1.jpg" alt="">
+                <img src="../../assets/images/planes_3.jpg" alt="" style="top: 0px;">
               </div>
               <h3>Avanzado</h3>
               <p>Mensual</p>
